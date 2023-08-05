@@ -100,9 +100,9 @@
 						</div>
 					</div>
 					<div class="tabs__right">
-						<div class="tabs__img">
-							<img src="img/tabs-img.webp" alt="">
-						</div>
+						<figure>
+							<img src="img/gif.gif" />
+						</figure>
 					</div>
 				</div>
 			</div>
@@ -218,39 +218,46 @@
 						<div class="participants__swiper swiper mySwiper">
 							<div class="participants__swiper-wrapper swiper-wrapper">
 								<div class="participants-slide swiper-slide">
-									<div class="participants-slide__img">
-										<img src="img/participants-img.webp" alt="">
-									</div>
-								</div>
-								<div class="participants-slide swiper-slide">
-									<div class="participants-slide__img">
-										<img src="img/participants-img2.webp" alt="">
-									</div>
-								</div>
-								<div class="participants-slide swiper-slide">
-									<div class="participants-slide__img">
+									<a href="" class="participants-slide__img">
 										<img src="img/participants-img3.svg" alt="">
-									</div>
+										<img src="img/participants-img3.1.webp" alt="">
+									</a>
 								</div>
 								<div class="participants-slide swiper-slide">
-									<div class="participants-slide__img">
-										<img src="img/participants-img4.webp" alt="">
-									</div>
-								</div>
-								<div class="participants-slide swiper-slide">
-									<div class="participants-slide__img">
-										<img src="img/participants-img5.webp" alt="">
-									</div>
-								</div>
-								<div class="participants-slide swiper-slide">
-									<div class="participants-slide__img">
-										<img src="img/participants-img.webp" alt="">
-									</div>
-								</div>
-								<div class="participants-slide swiper-slide">
-									<div class="participants-slide__img">
+									<a href="" class="participants-slide__img">
 										<img src="img/participants-img2.webp" alt="">
-									</div>
+										<img src="img/participants-img2.1.webp" alt="">
+									</a>
+								</div>
+								<div class="participants-slide swiper-slide">
+									<a href="" class="participants-slide__img">
+										<img src="img/participants-img3.svg" alt="">
+										<img src="img/participants-img3.1.webp" alt="">
+									</a>
+								</div>
+								<div class="participants-slide swiper-slide">
+									<a href="" class="participants-slide__img">
+										<img src="img/participants-img4.webp" alt="">
+										<img src="img/participants-img4.1.webp" alt="">
+									</a>
+								</div>
+								<div class="participants-slide swiper-slide">
+									<a href="" class="participants-slide__img">
+										<img src="img/participants-img5.webp" alt="">
+										<img src="img/participants-img5.1.webp" alt="">
+									</a>
+								</div>
+								<div class="participants-slide swiper-slide">
+									<a href="" class="participants-slide__img">
+										<img src="img/participants-img3.svg" alt="">
+										<img src="img/participants-img3.1.webp" alt="">
+									</a>
+								</div>
+								<div class="participants-slide swiper-slide">
+									<a href="" class="participants-slide__img">
+										<img src="img/participants-img2.webp" alt="">
+										<img src="img/participants-img2.1.webp" alt="">
+									</a>
 								</div>
 							</div>
 						</div>
@@ -320,7 +327,15 @@
 							</div>
 						</div>
 						<div class="consortium-video__right">
-							<iframe src="https://www.youtube.com/embed/__-vp0g_BhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+							<video class="video" controls poster="img/poster-img.webp">
+								<source src="video/video.mp4" type="video/mp4">
+								<source src="video/video.mp4" type="video/mp4">
+							</video>
+							<div class="play">
+								<svg width="19" height="21" viewBox="0 0 19 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M18.5 10.5952L0.5 0.595215V20.5952" fill="white"/>
+								</svg>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -484,5 +499,13 @@
 <script src="js/main.min.js"></script>
 
 </body>
+
+<style>
+	@media screen and (max-width: 992px) {
+		.page-top {
+			background-image: url("../img/page-top__img-mob.webp") !important;
+		}
+	}
+</style>
 
 </html>
